@@ -1,22 +1,25 @@
-# ScuttleBox .gitignore
+# Dependencies
+node_modules/
+backend/venv/
+__pycache__/
+*.pyc
 
-# Daily memory logs (personal/session-specific)
-memory/
+# Build outputs
+frontend/dist/
 
-# State files
-.identity-fetched
-*.log
+# Environment files (keep .env.example)
+.env
+frontend/.env
 
-# OS files
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
 .DS_Store
 Thumbs.db
 
-# Editor files
-*.swp
-*.swo
-*~
-.vscode/
-.idea/
-
-# Node modules (if scripts use them)
-node_modules/
+# Logs
+*.log
