@@ -1,0 +1,22 @@
+# ScuttleBox .gitignore
+
+# Daily memory logs (personal/session-specific)
+memory/
+
+# State files
+.identity-fetched
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Node modules (if scripts use them)
+node_modules/
